@@ -2,11 +2,11 @@ body {
   background-color: bisque;
 }
 
-.today{
+.today {
   text-align: center;
 }
 
-.list{
+.list {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -16,26 +16,25 @@ body {
   border-radius: 5px;
 }
 
-.flex-list{
+.flex-list {
   display: flex;
   flex-direction: row;
   width: 450px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-   border-bottom: 1px gray solid;
+  border-bottom: 1px gray solid;
 }
 
-.flex-list div{
+.flex-list div {
   margin: 20px;
-
 }
 
-.flex-list input{
+.flex-list input {
   margin-right: 20px;
 }
 
-.clear{
+.clear {
   margin: 10px;
   text-align: center;
 }
