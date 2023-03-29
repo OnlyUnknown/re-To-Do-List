@@ -1,6 +1,7 @@
 import './style.css';
 import { add } from './modules/add.js';
 import { event, adde } from './modules/edit.js';
+import { remove } from './modules/remove.js';
 
 let input = document.querySelector("input")
 
@@ -56,7 +57,6 @@ clear.classList.add('clear');
 clear.innerHTML = 'Clear Completed';
 container.appendChild(clear);
 container.appendChild(btn)
-container.appendChild(btn2)
 
 document.addEventListener("keypress", (event) => {
   
@@ -73,6 +73,7 @@ btn.addEventListener("click", add)
 
 document.addEventListener("click", event)
 
+document.addEventListener("click", remove)
 
 
 

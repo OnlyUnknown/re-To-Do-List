@@ -1,8 +1,8 @@
-let event = (event) => {
-    if(event.target.classList.contains("fa-sharp")){
+let remove = (event) => {
+    if(event.target.classList.contains("fa-trash")){
        event.target.parentElement.parentElement.remove()
        }
 
  }
 
- export {event}
+ export {remove}

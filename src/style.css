@@ -49,6 +49,12 @@ body {
   display: none;
 }
 
+.editor{
+  margin: 20px;
+
+
+}
+
 .right{
   margin-left: auto;
   margin-right: 10px;
