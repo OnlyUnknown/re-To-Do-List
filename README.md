@@ -61,7 +61,6 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-
 # 📖 [TO-DO-LIST-APP] <a name="about-project"></a>
 
 **[TO-DO-LIST-APP]** This is the a simple project that allows user to plan a todo-list. It stores a list of activities that will be done and anables the user to clear or mark completed task.
