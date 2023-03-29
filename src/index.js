@@ -3,32 +3,21 @@ import { add } from './modules/add.js';
 import { event, adde } from './modules/edit.js';
 import { remove } from './modules/remove.js';
 
+let book = [];
+if(localStorage.getItem('used') === null){
+    book = [];
+}else{
+    book = JSON.parse(localStorage.getItem("used"))
+}
+
 let input = document.querySelector("input")
 
-const list = [
-  {
-    index: 0,
-    discription: 'shooping',
-    completed: true,
-  },
-  {
-    index: 1,
-    discription: 'washing my car',
-    completed: false,
-  },
-  {
-    index: 2,
-    discription: 'doing farm works',
-    completed: false,
-  },
-
-];
 
 const flex = document.querySelector('.list');
 
-list.forEach((task) => {
-  flex.innerHTML += `<div class="flex-list"><input type="checkbox"><div class="value-list"> ${task.discription} </div> <a class="right" href="#"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i><a></div>`;
-});
+for(let i = 0; i < book.length; i++){
+  flex.innerHTML += `<div class="flex-list"><input type="checkbox"><div class="value-list"> ${book[i].discription} </div> <a class="right" href="#"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i><a></div>`;
+}
 
 
 let container = document.querySelector(".container")
