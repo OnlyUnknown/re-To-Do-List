@@ -1,5 +1,5 @@
 import './style.css';
-
+import { add } from './modules/add';
 const list = [
   {
     index: 0,
@@ -28,4 +28,17 @@ list.forEach((task) => {
 const clear = document.createElement('div');
 clear.classList.add('clear');
 clear.innerHTML = 'Clear Completed';
-flex.appendChild(clear);
+
+let container = document.querySelector(".container")
+
+
+const value = document.querySelector(".value")
+const btn = document.createElement("button");
+btn.classList.add("enter");
+
+value.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.querySelector(".enter").click();
+  }
+});
