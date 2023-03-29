@@ -49,13 +49,11 @@ body {
   display: none;
 }
 
-.editor{
+.editor {
   margin: 20px;
-
-
 }
 
-.right{
+.right {
   margin-left: auto;
   margin-right: 10px;
 }
