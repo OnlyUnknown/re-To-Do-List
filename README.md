@@ -1,39 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img/>
-  <br/>
-
-  <h3><b>Read me</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -60,110 +24,52 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
+# 📖 [To Do List] <a name="about-project"></a>
 
+> This project includes html, js and css file.
+> You are able to add your To do in the list
 
-# 📖 [TO-DO-LIST-APP] <a name="about-project"></a>
-
-**[TO-DO-LIST-APP]** This is the a simple project that allows user to plan a todo-list. It stores a list of activities that will be done and anables the user to clear or mark completed task.
 ## 🛠 Built With <a name="built-with"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">JavaScript</a></li>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
+>js
+>html
+>css
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">webpack-dev-Server</a></li>
-  </ul>
-</details>
+### Tech Stack <a name="tech-stack"></a>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">N/A</a></li>
-  </ul>
-</details>
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **[Added HtmlWebpackPlugin]**
-- **[Added HTML template]**
-- **[Set up TodoList application structure]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- http://localhost:8080/
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Webhint
+- Styleint
+- Technologies used
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+> In order to run this project you need:
 
-webpack-dev-server extension installed
-
+- Install code editor.
+- Install git.
+- Have github account.
 
 ### Setup
 
-Clone this repository to your desired folder:
+> Clone this repository to your desired folder:
 
-  cd my-folder
-  git clone https://github.com/Lasten-Ernest/To-Do-List_app
+- git clone https://github.com/OnlyUnknown/To-do-list-webpack.git
 
-### Install
+<!-- AUTHORS -->
 
-Install this project with:
+## 👥 Authors <a name="Abdullah - AL-Khureif"></a>
 
+👤 **Abdullah AL-Khureif**
 
-  npm install
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
-  npm start or npm run dev
-
-
-### Run tests
-
-To run tests, run the following command:
-N/A
-
-### Deployment
-
-You can deploy this project using:
-N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHOR -->
-
-## 👥 Author <a name="author"></a>
-
-👤 **Ernest Lasten**
-
-- GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
-- Twitter: [@LastenErnest](https://twitter.com/LastenErnest)
-- LinkedIn: [@ernestlasten](https://linkedin.com/in/ernestlasten)
+- GitHub: [OnlyUnown](https://github.com/OnlyUnknown)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,17 +78,28 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create full website using webpack as template]**
+adding the abilty to check the completed tasks
+adding the ability to clear the completed tasks
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Styling the page <br>
+Adding the ability to reorganize the list
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributing">Abdullah AL - Khureif</a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lasten-Ernest/To-Do-List_app/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +107,7 @@ Feel free to check the [issues page](https://github.com/Lasten-Ernest/To-Do-List
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please leave a star on this project
+If you like this project you can clone it and use it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,14 +115,18 @@ If you like this project, please leave a star on this project
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse team for encouragement and ideas
+> Give credit to everyone who inspired your codebase.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+I would like to thank my friends Yidne.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [LICENCE](LICENCE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
