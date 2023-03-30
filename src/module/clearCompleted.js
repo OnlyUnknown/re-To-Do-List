@@ -16,6 +16,7 @@ const clearC = () => {
 
   localStorage.setItem('used', JSON.stringify(task));
 
+  
   const flex = document.querySelector('.list');
   flex.innerHTML = `<div class="today">Today's To Do</div>
 <input class="value" type="text" placeholder="Add to the list">`;

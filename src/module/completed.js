@@ -21,6 +21,7 @@ const check = (event) => {
     }
   }
 
+  
   localStorage.setItem('used', JSON.stringify(book));
 };
 
