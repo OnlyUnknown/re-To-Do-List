@@ -62,3 +62,7 @@ body {
   text-decoration: line-through;
   color: gray;
 }
+
+.index {
+  visibility: hidden;
+}
